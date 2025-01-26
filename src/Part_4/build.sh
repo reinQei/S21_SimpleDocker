@@ -1,0 +1,1 @@
+docker build . -t hello_server_v2 && docker run --rm --name hello_server_v2 -p 80:81 hello_server_v2
